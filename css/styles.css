@@ -3,10 +3,19 @@ h1 {
   size: 3rem;
   line-height: 1,5;
   }
-  #title {
+#title {
   background-color: #ff4c68;
   font-family: 'Ubuntu', sans-serif;
 }
 .container-fluid {
   padding: 3% 15%;
+}
+.rotate {
+  -webkit-transform:rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+  width: 250px;
+  height: 500px;
 }
