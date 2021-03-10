@@ -1,4 +1,7 @@
-h1 {
+body{
+  font-family: "Montserrat";
+  }
+  h1 {
   font-family: 'Montserrat-Black', sans-serif;
   size: 3rem;
   line-height: 1,5;
@@ -6,9 +9,36 @@ h1 {
 #title {
   background-color: #ff4c68;
   font-family: 'Ubuntu', sans-serif;
+  color: white;
 }
 .container-fluid {
-  padding: 3% 15%;
+padding: 5%;
+}
+.navbar{
+padding-bottom: 0 0 4.5rem;
+padding-right: 10%;
+}
+.navbar-brand {
+font-family: "Ubuntu";
+font-size: 2.5;
+font-weight: bold;
+padding-left: 150px;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2 rem;
+  font-family: "Montserrat-Light";
+  font-weight:
+}
+.description {
+  display: flex;
+  font-size: 65px;
+  padding-left: 120px;
+}
+.btn-outline-dark {
+  margin-left: 200px;
 }
 .rotate {
   -webkit-transform:rotate(30deg);
@@ -18,4 +48,9 @@ h1 {
   transform: rotate(30deg);
   width: 250px;
   height: 500px;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  size: 2.5rem;
+  font-weight: bold;
 }
