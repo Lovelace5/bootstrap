@@ -12,7 +12,7 @@ body{
   color: white;
 }
 .container-fluid {
-padding: 5%;
+padding: 1.1%;
 }
 .navbar{
 padding-bottom: 0 0 4.5rem;
@@ -20,9 +20,10 @@ padding-right: 10%;
 }
 .navbar-brand {
 font-family: "Ubuntu";
-font-size: 2.5;
+font-size: 2.5rem;
 font-weight: bold;
-padding-left: 150px;
+padding-left: 14%;
+padding-right: 25%;
 }
 .nav-item {
   padding: 0 18px;
@@ -30,24 +31,26 @@ padding-left: 150px;
 .nav-link {
   font-size: 1.2 rem;
   font-family: "Montserrat-Light";
-  font-weight:
 }
+
 .description {
   display: flex;
-  font-size: 65px;
-  padding-left: 120px;
+  font-size: 4.5rem;
+  padding-left: 22%;
+  font-family: "Montserrat-Light";
+  padding-top: 10%;
+  font-weight: bold;
 }
-.btn-outline-dark {
-  margin-left: 200px;
+.download-btn {
+  margin: 5% 3% 5% 0%;
 }
-.rotate {
-  -webkit-transform:rotate(30deg);
-  -moz-transform: rotate(30deg);
-  -ms-transform: rotate(30deg);
-  -o-transform: rotate(30deg);
-  transform: rotate(30deg);
-  width: 250px;
-  height: 500px;
+/* created to align buttons responsive */
+.btn-align {
+  margin-left: 22%;
+}
+.img-rotate {
+  transform:rotate(25deg);
+  width: 50%;
 }
 .navbar-brand {
   font-family: "Ubuntu";
