@@ -4,7 +4,16 @@ body{
   h1 {
   font-family: 'Montserrat-Black', sans-serif;
   size: 3rem;
-  line-height: 1,5;
+  line-height: 1.5;
+  }
+  h2{
+    font-family: 'Montserrat-bold';
+    size: 7rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Montserrat-bold";
   }
 #title {
   background-color: #ff4c68;
@@ -15,7 +24,7 @@ body{
 padding: 1.1%;
 }
 .navbar{
-padding-bottom: 0 0 4.5rem;
+padding-bottom: 4.5rem;
 padding-right: 10%;
 }
 .navbar-brand {
@@ -29,10 +38,9 @@ padding-right: 25%;
   padding: 0 18px;
 }
 .nav-link {
-  font-size: 1.2 rem;
+  font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
-
 .description {
   display: flex;
   font-size: 4.5rem;
@@ -42,7 +50,7 @@ padding-right: 25%;
   font-weight: bold;
 }
 .download-btn {
-  margin: 5% 3% 5% 0%;
+  margin: 5% 3% 5% 0;
 }
 /* created to align buttons responsive */
 .btn-align {
@@ -57,12 +65,21 @@ padding-right: 25%;
   size: 2.5rem;
   font-weight: bold;
 }
+/* features section */
 #features {
-  margin: 5%;
+  margin-top: 5%;
+}
+.row{
+  padding-left: 0;
+  padding-right: 7%;
 }
 .img-second-section {
   color: #ef8172;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.6rem;
+}
+.no-gutters {
+  padding-left: 6%
 }
 .center {
   text-align: center;
@@ -70,11 +87,24 @@ padding-right: 25%;
 .img-second-section:hover {
   color: #ff4c68;
 }
-h3 {
-  font-size: 1.5rem;
-  text-align: center;
-}
 p{
   color: #8f8f8f;
   text-align: center;
+}
+/* testimonial section */
+#testimonials {
+  padding: 7% 12%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.description-h2 {
+  display: flex;
+  font-size: 3rem;
+  font-family: "Montserrat-Light";
+  font-weight: bold;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
 }
