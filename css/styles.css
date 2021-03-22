@@ -68,23 +68,25 @@ padding-right: 25%;
   size: 2.5rem;
   font-weight: bold;
 }
-@media (max-width: 1229px){
-  #title {
-    text-align: center;
-    position: static;
-    margin-bottom: 0;
-  }
-  #features {
-    background-color: white;
-    position: static;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+ @media (max-width: 1229px){
+   #title {
+     background-color: #ff4c68;
+     font-family: 'Ubuntu', sans-serif;
+     color: white;
+   }
   .img-rotate {
     transform:rotate(0);
     width: 50%;
   }
-}*/
+  }
+  #features {
+    margin-top: 5%;
+    background-color: white;
+    top: 500px;
+    width: 100%;
+    height: 30%;
+    padding-bottom: 3%;
+  }
 }
 /* features section */
 #features {
