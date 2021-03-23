@@ -84,7 +84,7 @@ padding-right: 25%;
   width: 50%;
 }
 .container {
-  background-color: #BCD4E6;
+  background-color: #E6E6FA	;
   position: relative;
   z-index: 6;
   top: 590px;
@@ -92,6 +92,18 @@ padding-right: 25%;
 .mobile-responsive {
   position: relative;
   top: 1500px;
+}
+#footer {
+  margin-top: 0;
+  background-color: white;
+}
+.social-icons {
+  position: static;
+  padding-bottom: 7%;
+}
+.copyright {
+  padding-top: 10%;
+  bottom: 10%;
 }
 }
 /* features section */
@@ -149,7 +161,6 @@ p{
 }
 /* press section */
 #press {
-  background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -167,4 +178,33 @@ p{
 }
 .pricing-col {
   padding-top: 2.5%;
+}
+#cta {
+  background-color: #ff4c68;
+  margin-top: 0;
+  padding-bottom: 2%;
+}
+.download-title-section {
+  font-family: "Montserrat-Black";
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.footer-btn-align {
+  margin-right: 2%;
+}
+#footer {
+  background-color: white;
+}
+.social-icons {
+  position: absolute;
+  left: 45%;
+  margin-top: 2%;
+  word-spacing: 1rem;
+}
+.copyright {
+  padding-top: 5%;
 }
