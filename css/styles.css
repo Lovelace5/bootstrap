@@ -1,48 +1,58 @@
-body{
+body {
   font-family: "Montserrat";
-  }
-  h1 {
+}
+
+h1 {
   font-family: 'Montserrat-Black', sans-serif;
   size: 3rem;
   line-height: 1.5;
-  }
-  h2{
-    font-family: 'Montserrat-bold';
-    size: 7rem;
-  }
-  h3 {
-    font-size: 1.5rem;
-    text-align: center;
-    font-family: "Montserrat-bold";
-  }
+}
+
+h2 {
+  font-family: 'Montserrat-bold';
+  size: 7rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Montserrat-bold";
+}
+
 #title {
   background-color: #ff4c68;
   font-family: 'Ubuntu', sans-serif;
   color: white;
 }
+
 .container-fluid {
-padding: 1.1%;
-position: relative;
-background-color: #ff4c68;
+  padding: 1.1%;
+  position: relative;
+  background-color: #ff4c68;
 }
-.navbar{
-padding-bottom: 4.5rem;
-padding-right: 10%;
+
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-right: 10%;
 }
+
 .navbar-brand {
-font-family: "Ubuntu";
-font-size: 2.5rem;
-font-weight: bold;
-padding-left: 14%;
-padding-right: 25%;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 14%;
+  padding-right: 25%;
 }
+
 .nav-item {
   padding: 0 18px;
 }
+
 .nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
+
 .description {
   display: flex;
   font-size: 4.5rem;
@@ -51,61 +61,64 @@ padding-right: 25%;
   padding-top: 10%;
   font-weight: bold;
 }
+
 .download-btn {
   margin: 5% 3% 5% 0;
 }
+
 /* created to align buttons responsive */
 .btn-align {
   margin-left: 22%;
 }
+
 .img-rotate {
   transform: rotate(25deg);
   width: 45%;
   margin-left: 15%;
   margin-top: 8%;
 }
+
 .navbar-brand {
   font-family: "Ubuntu";
   size: 2.5rem;
   font-weight: bold;
 }
 
-@media (max-width: 1229px){
-#text {
-  text-align: center;
+@media (max-width: 1229px) {
+  #text {
+    text-align: center;
+  }
+
+  .container-fluid {
+    position: absolute;
+    z-index: 5;
+  }
+
+  .img-rotate {
+    position: relative;
+    transform: rotate(0);
+    width: 50%;
+  }
+
+  .container {
+    background-color: #E6E6FA;
+    position: relative;
+    z-index: 6;
+    top: 590px;
+  }
+
+  .mobile-responsive {
+    position: relative;
+    top: 1587px;
+  }
+
+  .div-copyright {
+    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-left: 16%;
+  }
 }
-.container-fluid {
-  position: absolute;
-  z-index: 5;
-}
-.img-rotate {
-  position: relative;
-  transform: rotate(0);
-  width: 50%;
-}
-.container {
-  background-color: #E6E6FA	;
-  position: relative;
-  z-index: 6;
-  top: 590px;
-}
-.mobile-responsive {
-  position: relative;
-  top: 1500px;
-}
-#footer {
-  margin-top: 0;
-  background-color: white;
-}
-.social-icons {
-  position: static;
-  padding-bottom: 7%;
-}
-.copyright {
-  padding-top: 10%;
-  bottom: 10%;
-}
-}
+
 /* features section */
 #features {
   margin-top: 2%;
@@ -115,75 +128,93 @@ padding-right: 25%;
   width: 100%;
   height: 30%;
 }
-.container{
+
+.container {
   padding-top: 4%;
 }
-.row{
+
+.row {
   padding-left: 0;
   padding-right: 7%;
 }
+
 .img-second-section {
   color: #ef8172;
   font-size: 2.5rem;
   margin-bottom: 0.6rem;
 }
+
 .no-gutters {
   padding-left: 6%
 }
+
 .center {
   text-align: center;
 }
+
 .img-second-section:hover {
   color: #ff4c68;
 }
-p{
+
+p {
   color: #8f8f8f;
   text-align: center;
 }
+
 /* testimonial section */
 #testimonials {
   text-align: center;
   background-color: #ef8172;
 }
-.carousel-item{
+
+.carousel-item {
   padding: 7% 12%;
 }
+
 .description-h2 {
   display: flex;
   font-size: 2rem;
   font-family: "Montserrat-Light";
   font-weight: bold;
 }
+
 .testimonial-img {
   width: 10%;
   border-radius: 100%;
   margin-top: 5%;
 }
+
 /* press section */
 #press {
   text-align: center;
   padding-bottom: 3%;
 }
+
 .press-logo {
   width: 13%;
   margin: 20px 20px 50px;
 }
+
 /* pricing section */
 #pricing {
   padding: 80px;
   background-color: white;
 }
+
 .pricing-title {
   text-align: center;
 }
+
 .pricing-col {
   padding-top: 2.5%;
 }
+
 #cta {
   background-color: #ff4c68;
   margin-top: 0;
   padding-bottom: 2%;
 }
+
 .download-title-section {
   font-family: "Montserrat-Black";
   color: white;
@@ -193,18 +224,22 @@ p{
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
 .footer-btn-align {
   margin-right: 2%;
 }
+
 #footer {
   background-color: white;
 }
+
 .social-icons {
   position: absolute;
   left: 45%;
   margin-top: 2%;
   word-spacing: 1rem;
 }
+
 .copyright {
   padding-top: 5%;
 }
