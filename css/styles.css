@@ -109,7 +109,7 @@ h3 {
 
   .mobile-responsive {
     position: relative;
-    top: 1587px;
+    top: 1500px;
   }
 
   .div-copyright {
@@ -213,16 +213,18 @@ p {
   background-color: #ff4c68;
   margin-top: 0;
   padding-bottom: 2%;
+  text-align: center;
 }
 
 .download-title-section {
   font-family: "Montserrat-Black";
   color: white;
   font-weight: bold;
-  text-align: center;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
+  line-height: 1.5;
   padding-top: 5%;
   padding-bottom: 5%;
+  text-align: center;
 }
 
 .footer-btn-align {
