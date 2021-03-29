@@ -77,7 +77,6 @@ p {
 .img-rotate {
   transform: rotate(25deg);
   width: 45%;
-  margin-left: 15%;
   margin-top: 8%;
 }
 
@@ -199,6 +198,24 @@ p {
 
 .pricing-col {
   padding-top: 2.5%;
+}
+
+.btn-sign-up {
+  background-color: #ff4c68 !important;
+  border: none;
+  border-color: white !important;
+}
+
+.btn-free {
+  background-color: white !important;
+  color: #ff4c68 !important;
+  border-color: #ff4c68 !important;
+}
+
+.btn-free:hover {
+  background-color: #ff4c68 !important;
+  color: white !important;
+  border-color: white !important;
 }
 
 #cta {
